@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.judul {
+    margin: 10px;
+    color: #3c6382;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url('gambar/background3.jpg');
+    height: 735px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px;
+}
+
+.isi-judul {
+    text-align: center;
+    padding-top: 200px;
+}
+
+hr {
+    border: 2px solid #3c6382;
+    width: 5%;
+    margin: auto;
+}
+
+.display-4 {
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.lead {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+/* navbar */
+.navbar {
+    margin-top: -20px;
+}
+
+.navbar-brand {
+    opacity: 0;
+}
+
+.nav-item {
+    color: #3c6382 !important;
+    text-transform: uppercase;
+    font-weight: 150;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.btn-default {
+    border: 1px solid #3c6382;
+    border-radius: 0px;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* article */
+.article {
+    background-color: #FFFAFA;
+    margin-top: -20px;
+    padding-bottom: 100px;
+}
+
+.title {
+    padding-top: 150px;
+    text-align: center;
+    color: #3c6382;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
+
+.card {
+    padding-bottom: 70px;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body {
+    padding-top: 80px;
+}
+
+.card-text {
+    font-weight: 100;
+}
+
+/* about */
+.about {
+    height: 650px;
+}
+
+.about .isi {
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.about img {
+    width: 100%;
+    height: 650px;
+}
+
+/* subcribe */
+.subcribe {
+    background-color: #CAD3C8;
+    padding-bottom: 100px;
+    margin-top: 600px;
+}
+
+.subcribe .isi {
+    width: 100%;
+    text-align: center;
+}
+
+.subcribe .form-control {
+    padding: 25px;
+    background: #f1f2f6;
+}
+
+/* footer */
+footer {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+footer .kanan {
+    padding-left: 25px;
+}
+
+footer .kanan a {
+    font-size: 25px;
+    padding-right: 10px;
+    color: #000;
+}
+
+footer .kiri {
+    text-align: right;
+    padding-right: 25px;
+}
+
+footer .kiri a {
+    text-transform: uppercase;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 13px;
+}
+
+@media (min-width: 992px) {
+
+    /* navbar desktop */
+    .navbar {
+        margin-top: -45px;
+    }
+
+    .navbar-brand {
+        color: #3c6382 !important;
+        font-weight: 600;
+        font-size: 25px;
+        opacity: 1;
+    }
+
+    .nav-item {
+        margin-left: 20px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .btn-default {
+        border: 1px solid #3c6382;
+        width: 150px;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+
+    /* jumbotron desktop */
+    .jumbotron {
+        height: 800px;
+    }
+
+    .isi-judul {
+        padding-top: 150px;
+    }
+
+    .display-4 {
+        letter-spacing: 10px;
+        font-weight: 500;
+        font-size: 100px;
+    }
+
+    .lead {
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+
+    /* card */
+    .card {
+        margin-bottom: 0px;
+    }
+
+    /* about */
+    .about .isi {
+        width: 500px;
+        margin-top: 0px;
+    }
+
+    /* subscribe */
+    .subcribe {
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 150px;
+    }
+
+    .subcribe .isi {
+        width: 35%;
+        margin: auto;
+    }
+
+    footer .kanan a {
+        padding-right: 15px;
+    }
+
+    footer .kiri a {
+        margin-right: 50px;
+    }
+
+}
